@@ -1,13 +1,51 @@
+:root{/*Customer Propierties*/
+    --blanco: #ffffff;
+    --ocuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097a7;
+    --gris:#757575;
+}
+
 html{
     font-size: 62.5%;
 }
 body{
     font-size: 16px;/*1 rem = 10px*/
+    font-family: 'Krub', sans-serif;
 }
 .titulo{
     text-align: center;
     font-size: 3.8rem;
 }
-.titulo{
+
+.titulo span{
     font-size: 2rem;
 }
+/*
+.titulo span{
+    font-size: 2rem;
+    color:green!important;
+}
+La etiqueta important, para usar ese color
+encima de todos*/
+.contenedor{
+    width: 120rem;
+    /* 1ERA FORMA
+    margin-top: 0; --Separacion hacia arriba
+    margin-right: auto; --Centrar
+    margin-bottom: 0; --Separacion hacia abajo
+    margin-left: auto; --Centrar
+    */
+   /* 2DA FORMA 
+    margin:0 auto 0 auto;
+    */
+    /*3RA FROMA*/
+    margin: 0 auto;
+}
+.nav-bg{
+    background-color: var(--secundario);
+}
+.navegacion-principal{
+    background-color: var(--secundario);
+}
+
